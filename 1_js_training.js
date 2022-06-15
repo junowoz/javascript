@@ -103,4 +103,4 @@ console.log(typeof unknown3); // Output: boolean
   // Use short circuit evaluation to assign  writingUtensil variable below:
   let writingUtensil = tool || 'pen';
 
-  console.log(`The ${writingUtensil} is mightier than the sword.`);
+console.log(`The ${writingUtensil} is mightier than the sword.`);
