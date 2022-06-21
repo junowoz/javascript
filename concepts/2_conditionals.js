@@ -1,4 +1,4 @@
-
+//////////////////////////////////////////////////////////////////////
 /*
 * CONDITIONALS
 */
@@ -23,7 +23,7 @@
     console.log('Tiny');
   }
 // Prints: Small
-
+//////////////////////////////////////////////////////////////////////
 /*
  Comparision Operators
   2 > 1
@@ -41,6 +41,7 @@ if (hungerLevel > 7) {
     console.log('We can eat later!');
 }
 
+//////////////////////////////////////////////////////////////////////
 /*Logical Operators OR and AND
 OR - if one value is true, returns true.
 
@@ -71,6 +72,7 @@ Falsy values include false, 0, empty strings, null undefined, and NaN. All other
   true && false;     // false
   4 === 4 && 3 > 1;  // true
 
+//////////////////////////////////////////////////////////////////////
 /*
  Truthy and Falsy Assignment 
  */
@@ -80,6 +82,7 @@ let writingUtensil = tool || 'pen'; //prints the true one
 
 console.log(`The ${writingUtensil} is mightier than the sword.`);
 
+//////////////////////////////////////////////////////////////////////
 /*
 Ternary Operator
 In the example:
@@ -96,7 +99,8 @@ If the condition evaluates to false, the second expression executes.
 
   let favoritePhrase = 'Love That!';
   favoritePhrase === 'Love That!' ? console.log('I love that!') : console.log("I don't love that!");
-
+  
+//////////////////////////////////////////////////////////////////////
 /*
 * Switch Statement
 */

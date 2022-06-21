@@ -5,6 +5,8 @@
 
   console.log("Hello World!");
   console.log("Hello " + "World!")
+  
+//////////////////////////////////////////////////////////////////////
 
 /*
   Methods
@@ -19,12 +21,14 @@
 
   console.log(Math.floor(Math.random()*80));   // takes a random number, multiplies it by 50 and finds the closest int value
 
+//////////////////////////////////////////////////////////////////////
+
 //Built-In Objects
   console.log(Math.floor(Math.random()*100))
   console.log(Math.ceil(43.8))
   console.log(Number.isInteger(2017))
   
-  
+//////////////////////////////////////////////////////////////////////
 /* 
   Variables
   let is used when the variable can be changed
@@ -39,7 +43,7 @@
   console.log(entree)
   entree = 'Tacos' //Outputs ERROR
   
-
+//////////////////////////////////////////////////////////////////////
 //Null
   let something = null; //Represents a void
 
@@ -47,12 +51,15 @@
   var a;
   console.log(a); // Prints: undefined
 
+//////////////////////////////////////////////////////////////////////
 //String Concatenation with Variables
   let age = 7;
-  'Tommy is ' + age + ' years old.'; // String concatenation
+'Tommy is ' + age + ' years old.'; // String concatenation
+  
 //TEXT INTERPOLATION text ${expression} text
   `Tommy is ${age} years old.`; // String interpolation
-  
+
+//////////////////////////////////////////////////////////////////////
 //typeof Operator
 const unknown1 = 'foo';
 console.log(typeof unknown1); // Output: string
@@ -63,6 +70,7 @@ console.log(typeof unknown2); // Output: number
 const unknown3 = true; 
 console.log(typeof unknown3); // Output: boolean
 
+//////////////////////////////////////////////////////////////////////
   /*
   Assignment Operators
   An assignment operator assigns a value to its left operand based on the value of its right operand. Here are some of them:
@@ -100,7 +108,8 @@ console.log(typeof unknown3); // Output: boolean
 
   let tool = 'marker';
 
-  // Use short circuit evaluation to assign  writingUtensil variable below:
+//////////////////////////////////////////////////////////////////////
+// Use short circuit evaluation to assign  writingUtensil variable below:
   let writingUtensil = tool || 'pen';
 
 console.log(`The ${writingUtensil} is mightier than the sword.`);
