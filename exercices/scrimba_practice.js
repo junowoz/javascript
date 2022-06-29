@@ -132,4 +132,33 @@ if (listIngredients.includes("chocolate")) {  //if true, then
 }
 
 //////////////////////////////////////////////////////////////////////////////
-//Let & Const
+//Import & Export example.js
+export const data = [1, 2, 3]; //here I export
+
+    //index.js -- another file
+    import { data } from './example.js';
+        
+    updatedData.push(5)
+    console.log(updatedData);
+
+/**
+ * Challenge 
+ * Inside of the file data.js, create a function add, that will receive 2 numbers and return the sum of them.
+ * Make sure to export this function.
+- Import the function add, into the index.js file
+- Create a variable result, that will hold the result of the function add when you call it and pass 2 numbers into it.
+- print into the console the value of the variable result;
+ */
+
+// data.js
+export function add(x, y) {
+    return x + y;
+}
+
+//index.js
+import { add } from "./data.js";
+let result = add(3, 2);
+console.log(result);
+
+//////////////////////////////////////////////////////////////////////////////
+//padStart() & padEnd()
